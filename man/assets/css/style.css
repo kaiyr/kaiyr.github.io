@@ -67,11 +67,17 @@ section { overflow: hidden; }*/
 /*
     Spacing & Alignment 
 ------------------------------------------*/
+.roomy-300 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
 
 .roomy-200 {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: #fff;
+    background-color: #0866c7;
+    color: #fff;
 }
 
 .roomy-100 {
@@ -1772,5 +1778,5 @@ Footer Section style
 }
 
 .img1 {
-    padding: 0 0 0 320px;
+    padding: 0 0 0 0;
 }
