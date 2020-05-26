@@ -284,11 +284,11 @@
                         <div class="main_contact roomy-100 text-white">
                             
                             <div class="col-md-8 sm-m-top-30">
-                                <form class="" action="subcribe.php">
+                                <form method="POST" class="" action="sendemail.php" enctype="multipart/form-data">
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <div class="form-group"> 
-                                                <input id="first_name" name="first_name" type="text" placeholder="Ф.И.О" class="form-control" required="">
+                                                <input id="first_name" name="name" type="text" placeholder="Ф.И.О" class="form-control" required="">
                                             </div>
                                         </div>
 
@@ -305,13 +305,13 @@
                                         </div>
 
                                         <div class="col-sm-6">  
-                                                <input type="file" placeholder="E-mail" class="form-control">
+                                                <input type="file" name="file" class="form-control">
                                             
                                         </div>
 
                                         <div class="col-sm-12">
                                             <div class="form-group text-center">
-                                                <a href="" class="btn btn-primary">Отправить</a>
+                                                <button class="btn btn-primary" type="submite">Отправить</button>
                                             </div>
                                         </div>
 
