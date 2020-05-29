@@ -48,18 +48,18 @@ nav ul li a:hover {
 }
 
 .title_section_bg1 {
-    font-size: 90px;
+    font-size: 75px;
     line-height: 110px;
     font-weight: 700;
 }
 
 .subtitle_section_bg1 {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 .text_block_bg1 {
-    max-width: 486px;
+    max-width: 685px;
     color: #05026b;
 }
 
@@ -540,19 +540,19 @@ display: none;
 	text-align: right;
 	}
 	.title_section_bg1 {
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
-    padding: 0 30px;
+    padding: 0 20px;
     line-height: normal;
 }
 	.subtitle_section_bg1 {
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
 }
 	.bg1 {
     min-height: auto;
-    height: 628px;
-    background: url(images/bg1.jpg) no-repeat top right -96px;
+    height: 400px;
+    background: url(images/bg1.jpg) no-repeat top right -55px;
     background-size: cover;
 }
 	.mobile-menu__item {
