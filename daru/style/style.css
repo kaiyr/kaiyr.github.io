@@ -547,6 +547,7 @@ display: none;
 }
 	.subtitle_section_bg1 {
     font-size: 16px;
+    padding: 0 35px 0 0;
     text-align: center;
 }
 	.bg1 {
@@ -954,7 +955,7 @@ display: none;
     padding: 7px 10px 0;
     top: 30px;
     width: 50px;
-    background-color: #27ae60;
+    background-color: #188ff6;
     right: 20px;
     height: 50px;
     z-index: 9999999;
@@ -1009,7 +1010,7 @@ display: none;
   transition: 0.5s;
   transition-delay: 0.2s;
   overflow: hidden;
-  background-color: #27ae60;
+  background-color: #188ff6;
 }
 .mobile-menu__list {
   transition: 0.5s;
