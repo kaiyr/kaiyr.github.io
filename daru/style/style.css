@@ -28,7 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #0161b7;
+    color: #188ff6;
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
@@ -55,12 +55,12 @@ nav ul li a:hover {
 
 .subtitle_section_bg1 {
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .text_block_bg1 {
     max-width: 685px;
-    color: #0161b7;
+    color: #188ff6;
 }
 
 .bg2_about {
