@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ar.js</title>
+</head>
+<body>
+	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+
+    <a-scene embedded arjs>
+    	<a-marker preset="hiro">
+    		<a-entity
+    		position="0 0 0 0"
+    		scale="1 1 1 1"
+    		gltf-model="obj/scene.gltf">
+    		</a-entity>
+    	</a-marker>
+    	<a-entity camera>
+    	</a-entity>
+    </a-scene>
+</body>
+</html>
