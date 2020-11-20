@@ -1,4 +1,4 @@
-/*!
+f/*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
  * Copyright 2011-2020 Twitter, Inc.
@@ -604,8 +604,9 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: -15px;
-  padding-left: -15px;
+  text-align: center;
+  /* padding-right: -15px;
+  padding-left: -15px; */
 }
 
 .col {

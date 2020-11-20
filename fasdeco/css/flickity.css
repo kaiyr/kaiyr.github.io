@@ -79,8 +79,8 @@ https://flickity.metafizzy.co
 
 .flickity-prev-next-button {
   top: 50%;
-  width: 44px;
-  height: 44px;
+  width: 66px;
+  height: 66px;
   border-radius: 50%;
   /* vertically center */
   transform: translateY(-50%);
@@ -134,4 +134,14 @@ https://flickity.metafizzy.co
 
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
+}
+
+@media screen and (min-width: 1024px) {
+	.flickity-prev-next-button.previous { left: -5px; }
+	.flickity-prev-next-button.next { right: -5px; }
+}
+
+@media screen and (min-width: 1366px) {
+	.flickity-prev-next-button.previous { left: 10px; }
+	.flickity-prev-next-button.next { right: 10px; }
 }
