@@ -69,7 +69,7 @@ h5 {
   border-radius: 16px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #555555; }
+  background-color: #333; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
@@ -204,7 +204,7 @@ Hero
 .hero {
   min-height: 100vh;
   /* background: linear-gradient(to right, rgb(255, 230, 0), rgba(255, 230, 0, 0.226)), url("../img/fasdeco-bg.jpeg") center center; */
-  background: linear-gradient(90deg, rgb(220 187 33) 14%, rgb(230,201,0) 43%, rgba(255,220,0,0.06066176470588236) 100%), url("../img/fasdeco-bg.jpeg");
+  background: linear-gradient(90deg, rgb(12 12 12 / 32%) 14%, rgb(0 0 0 / 57%) 43%, rgb(0 0 0 / 55%) 100%), url(../img/fasdeco-bg.jpeg);
   background-position: right;
   background-size: cover;
   position: relative; 
