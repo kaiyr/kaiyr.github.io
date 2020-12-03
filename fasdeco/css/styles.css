@@ -804,7 +804,7 @@ you can use the generic selector below, but it's slower:
   }
 
   .header-logo {
-    width: 55%;
+    width: 75%;
   }
 
 
@@ -918,7 +918,7 @@ you can use the generic selector below, but it's slower:
 
   .nav-link {
     color: #ffffff !important;
-    font-weight: 600;
+    font-weight: 300;
     font-size: 20px;
     /* padding: 15px 20px; */
   }
